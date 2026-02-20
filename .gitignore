@@ -1,0 +1,17 @@
+.DS_Store
+
+# datasets (never upload)
+PlantVillage/
+data/
+datasets/
+
+# python/jupyter
+__pycache__
+*.pyc
+.ipynb_checkpoints/
+.venv/
+
+# model binaries (optional: usually keep out of GitHub)
+*.h5
+*.keras
+*.tflite
